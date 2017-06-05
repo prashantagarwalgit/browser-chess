@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Browser Chess</title>
         <link rel="stylesheet" href="inc/style.css">
     </head>
     <body>
-        <div   class="border-box">
+        <!-- Chess Board Start-->
+        <div>
+            <!-- Contains the Chess Board -->
             <div onclick="movement(this.id)"  class="black-square" id="70"></div>
             <div onclick="movement(this.id)"  class="white-square" id="71"></div>
             <div onclick="movement(this.id)"  class="black-square" id="72"></div>
@@ -78,6 +80,7 @@
             <div onclick="movement(this.id)"  class="white-square" id="06"></div>
             <div onclick="movement(this.id)"  class="black-square" id="07"></div>
         </div>
+        <!-- Chess Board Board End -->
     </body>
     <script src="inc/jquery.min.js"></script>
     <script src="inc/movement.js"></script>
