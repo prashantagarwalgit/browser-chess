@@ -4,12 +4,14 @@ var occupied = [];
 function whitePawn(thisId) {
     var img = document.createElement("IMG");
     img.src = "inc/whitepawn.png";
+    img.class = "white";
     document.getElementById(thisId).appendChild(img);
 }
 
 function bluePawn(thisId) {
     var img = document.createElement("IMG");
     img.src = "inc/bluepawn.png";
+    img.class = "blue";
     document.getElementById(thisId).appendChild(img);
 }
 
@@ -29,4 +31,3 @@ for (i = 0; i < 8; i++) {
         }
     }
 }
-console.log(occupied);
